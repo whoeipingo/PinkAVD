@@ -85,7 +85,7 @@
                         "runAsSystem": true,
                         "runElevated": true,
                         "name": "BIS-F",
-                        "scriptUri": "https://raw.githubusercontent.com/whoeipingo/PinkAVD/main/BISF.ps1?token=GHSAT0AAAAAABRKE3F23MFS4CE2UDRTRMMIYQA53VA"
+                        "scriptUri": "https://raw.githubusercontent.com/whoeipingo/PinkAVD/main/BISF.ps1"
                     },
                     {
                         "type": "WindowsRestart",
