@@ -85,7 +85,7 @@
                         "runAsSystem": true,
                         "runElevated": true,
                         "name": "BIS-F",
-                        "scriptUri": "https://raw.githubusercontent.com/RaymondZaagsma/PinkAVDAIB/main/1_Creating_a_Custom_W10_Shared_Image_Gallery_Image/BISF.ps1"
+                        "scriptUri": "https://raw.githubusercontent.com/whoeipingo/PinkAVD/main/BISF.ps1?token=GHSAT0AAAAAABRKE3F23MFS4CE2UDRTRMMIYQA53VA"
                     },
                     {
                         "type": "WindowsRestart",
