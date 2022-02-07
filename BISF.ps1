@@ -1,7 +1,7 @@
 Write-Output 'BISF Start'
 
 $bisfPath = 'C:\Program Files (x86)\Base Image Script Framework (BIS-F)'
-$jsonPath = "https://raw.githubusercontent.com/whoeipingo/PinkAVD/main/BISFconfig_MicrosoftWindows10EnterpriseforVirtualDesktops_64-bit.json?token=GHSAT0AAAAAABRKE3F3MGJ3WWSJ5IHCQRKGYQA52FQ", "https://raw.githubusercontent.com/whoeipingo/PinkAVD/main/BISFSharedConfig.json?token=GHSAT0AAAAAABRKE3F2MBVGYSNA4B6AKBGYYQA5ZRQ"
+$jsonPath = "https://raw.githubusercontent.com/whoeipingo/PinkAVD/main/BISFconfig_MicrosoftWindows10EnterpriseforVirtualDesktops_64-bit.json", "https://raw.githubusercontent.com/whoeipingo/PinkAVD/main/BISFSharedConfig.json"
 foreach ($file in $jsonPath) {
     $fileName = Split-Path $file -Leaf
     $outFile = Join-Path $bisfPath $fileName
