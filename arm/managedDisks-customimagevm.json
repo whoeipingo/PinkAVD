@@ -478,7 +478,7 @@
           "networkProfile": {
             "networkInterfaces": [
               {
-                "id": "[resourceId('Microsoft.Network/networkInterfaces',concat(replace(parameters('rdshPrefix'),'azp-avd-', ''), 'nic-',replace(parameters('rdshPrefix'),'-', '), parameters('vmInitialNumber'), '-01'))]"
+                "id": "[resourceId('Microsoft.Network/networkInterfaces',concat(replace(parameters('rdshPrefix'),'azp-avd-', ''), 'nic-',replace(parameters('rdshPrefix'),'-', ''), parameters('vmInitialNumber'), '-01'))]"
               }
             ]
           },
