@@ -465,7 +465,7 @@
           "storageProfile": {
             "osDisk": {
               "createOption": "FromImage",
-              "name": "[concat(replace(parameters('rdshPrefix'),'azp-avd-', ''), 'osdisk-',replace(parameters('rdshPrefix'),'-', ''),parameters('vmInitialNumber'),'-01')]",
+              "name": "[concat(replace(parameters('rdshPrefix'),'azp-avd-', ''), 'osdisk-', replace(parameters('rdshPrefix'),'-', ''), add(copyindex(), parameters('vmInitialNumber')),'-01')]",
               "managedDisk": {
                 "storageAccountType": "[variables('storageAccountType')]",
                 "securityProfile": "[if(equals(parameters('securityType'), 'ConfidentialVM'), variables('managedDiskSecurityProfile'), json('null'))]"
@@ -594,4 +594,3 @@
     ],
     "outputs": {}
   }
-
